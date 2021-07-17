@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+.substrate1 {
+	background-color: #02160b;
+	background-size:cover;
+	padding: 0;
+	margin: 0;
+}
+.fox {
+	background: url(assets/fox.svg);
+	width: 1200px;
+	height: 741px;
+	margin-left: auto;
+    margin-right: auto;
+	padding: 19px 120px;
+	margin-top: 1px;
+}
+header {
+	margin: 0;
+	padding: 0;
+}
+.logo {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+.logot {
+	float: left;
+	width: 155px;
+	height: 60px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	padding: 0 0 0 15px;
+	font-size: 32px;
+	line-height: 60px;
+	text-transform: uppercase;
+	color: #F7F7F7;
+	vertical-align: middle;
+}
+.logoppic {
+	float: left;
+	width: 70px;
+	height: 60px;
+	left: 120px;
+	top: 19px;
+	border-radius: 0px;
+}
+nav {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+ul.hr {
+	margin: 0; 
+    padding: 0;
+}
+ul.hr li {
+    display: inline; 
+    margin-right: 0px;
+    padding: 0px;
+	float: right;
+}
+.sign1 {
+	width: 120px;
+	height: 50px;
+	margin: 5px 0;
+	padding: 0;
+}
+.sign {
+	width: 120px;
+	font-family: 'Roboto';
+	margin: 0;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 27px;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid #CD6326;
+	border-radius: 5px;
+	background-image: none; 
+	background: transparent;
+	color: #F7F7F7;
+	cursor: pointer;
+}
+.sign:hover  {
+    background-color: #E39128; 
+   }
+.sign:active {
+	background-color: #8F5613; 
+}
+.search {
+	width: 32px;
+	height: 32px;
+	border-radius: 0px;
+	margin: 0px 62px 14px 60px;
+	padding: 0 0 2px;
+}
+.contact {
+	height: 50px;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0 0 0 65px;
+   }
+a {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	line-height: 60px;
+	color: #F7F7F7;
+	margin-bottom: 5px;
+	cursor: pointer;
+   }
+a:hover {
+	color: #CD6326;
+   }
+.icon {
+	   fill: #F7F7F7;
+	   vertical-align: middle;
+   }
+.icon:hover {
+		fill:#CD6326;
+   }
+.surv {
+	width: 274px;
+	text-align: left;
+	margin-top: 128px;
+	padding: 20px 0;
+}
+ h1 {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 74px;
+	letter-spacing: 2px;
+	color: #CD6326;
+	margin-bottom: 50px;
+ }
+ p {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	color: #F7F7F7;
+ }
+ .don1 {
+	width: 160px;
+	height: 60px;
+	margin: 5px 0;
+	padding: 0;
+}
+ .don {
+	width: 160px;
+	height: 60px;
+	margin-top: 30px;
+	background: #CD6326;
+	border: none;
+	border-radius: 5px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	line-height: 27px;
+	text-align: center;
+	color: #F7F7F7;
+	cursor: pointer;
+ }
+ .don:hover  {
+    background-color: #E39128; 
+ }
+ .don:active {
+	background-color: #8F5613; 
+ }
+.substrate2 {
+	background-color: #CCCCCC;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+ section {
+	margin-left: auto;
+    margin-right: auto;
+	width: 1200px;
+	height: 1128px;
+	background-color: #CCCCCC;
+	padding: 120px;
+ }
+ h2 {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 72px;
+	text-align: center;
+	color: #333333;
+	margin: 0%;
+ }
+ h3 {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+	color: #666666;
+	margin: 20px;
+ }
+ .substrate3 {
+	background-color: #181617;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+ }
+ footer {
+	background: url(assets/footer.svg);
+	width: 1200px;
+	height: 50px;
+	margin-left: auto;
+    margin-right: auto;
+	padding: 150px 119px 157px;
+	vertical-align: middle;
+ }
+ul.ic {
+	margin: 0; 
+    padding: 0;
+ }
+ul.ic li {
+	display: inline; 
+    padding: 0 0 0 27px;
+	float: right;
+ }
+.container {
+	display: flex; 
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 120px;
+  }
+.item {
+	flex-basis: auto;
+	flex: none;
+	margin: 0;
+	padding: 0px 30px;
+	width: 300px;
+	height: 360px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+  }
+.item:hover {
+	transform: scale(1.1);
+  }
+.item1 {
+	flex-basis: auto;
+	flex: none;
+	margin: 0;
+	padding: 0px 30px;
+	width: 30px;
+  }
+.rl1 {
+	background: none;
+	border: none;
+  }
+.rl {
+	fill: #C4C4C4;
+  	vertical-align: middle;
+	cursor: pointer;
+}
+.rl:hover {
+   fill:#CD6326;
+}
+.deer {
+	position: relative;
+	bottom: 127px;
+	float: none;
+	padding: 0;
+	margin: 0;
+}
+h4 {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 36px;
+	text-align: center;
+	color: #F7F7F7;
+	margin: 10px;
+}
+.box {
+	margin: 0;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 27px;
+	text-align: center;
+	color: #F7F7F7;
+}
+.notiv {
+	margin: 240px 0 0;
+	padding:  0 0 0;
+	align-content: center;
+}
+.not {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	line-height: 40px;
+	text-align: center;
+	color: #333333;
+	margin: 0 0 59px;
+}
+form {
+	display: block;
+	padding: 0px;
+	width: 664px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.email {
+	float: left;
+	text-align: left;
+	text-indent: 16px;
+	border: 1px solid #C4C4C4;
+	background-color: #CCCCCC;
+	width: 540px;
+	height: 60px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	line-height: 27px;
+	color: #666666;
+	border-right: none;
+	margin: 0;
+	padding: 0;
+}
+.send {
+	float: right;
+	width: 120px;
+	height: 60px;
+	color: #F7F7F7;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	line-height: 27px;
+	align-items: center;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	background: #CD6326;
+	border: 1px solid #CD6326;
+	border-radius: 0px 5px 5px 0px;
+	cursor: pointer;
+}
+.footer_nav {
+	margin: 0; 
+    padding: 0;
+ }
+ul.footer_nav li {
+	display: inline; 
+    padding: 0 0 0 27px;
+	float: left;
+ }
+ .logo_footer {
+	margin: 0 100px 0 0;
+	padding: 0 ;
+	text-align: left;
+}
+.more {
+	height: 50px;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0 97px 0 0px;
+ }
+.about {
+	height: 50px;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0 62px 0 0px;
+ }
+ .articles {
+	height: 50px;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0 61px 0 90px;
+ }
